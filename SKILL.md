@@ -1,6 +1,6 @@
 ---
 name: google-calendar
-description: Manage Google Calendar events from the command line -- list, add, update, delete events via the Calendar API.
+description: Tiny and short Python CLI tool to manage Google Calendar events from the command line -- list, add, update, delete events via the Calendar API.
 license: MIT
 homepage: https://github.com/xwings/py-googlecalendar-cli
 compatibility: Requires Python 3.6+. Network access to Google Calender

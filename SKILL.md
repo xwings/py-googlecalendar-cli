@@ -4,7 +4,7 @@ description: Tiny and short Python CLI tool to manage Google Calendar events fro
 license: MIT
 homepage: https://github.com/xwings/py-googlecalendar-cli
 compatibility: Requires Python 3.6+. Network access to Google Calender
-metadata: {"author": "xwings", "openclaw": {"bins": ["python3 {baseDir}/scripts/google-calendar-cli.py"]}}
+metadata: {"author": "xwings", "openclaw": {env: ["GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET", "GOOGLE_REFRESH_TOKEN", "GOOGLE_CALENDAR_ID"], "bins": ["python3 {baseDir}/scripts/google-calendar-cli.py"]}}
 ---
 
 # Google Calendar CLI

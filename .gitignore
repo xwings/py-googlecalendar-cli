@@ -1,0 +1,9 @@
+oauth
+*.pickle
+*.pyc
+__pycache__/
+venv/
+.env
+secrets.env
+.claude
+
